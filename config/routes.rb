@@ -1,4 +1,7 @@
 SampleApp::Application.routes.draw do
+  resources :jobs
+
+
   resources :ressources
 
 
