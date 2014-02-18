@@ -9,3 +9,13 @@
     </section>
   </aside>
 </div>
+
+<% if signed_in? %>
+    <p>
+      Ressourcen    <br>     <br>
+
+      <%= link_to "update Ressources!", ressources_path %><br>
+    </p>
+
+
+<% end %>
